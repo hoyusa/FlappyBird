@@ -14,6 +14,8 @@
 		E09AA106226E98D0000F9F39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E09AA104226E98D0000F9F39 /* LaunchScreen.storyboard */; };
 		E09AA111226E98D0000F9F39 /* FlappyBirdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09AA110226E98D0000F9F39 /* FlappyBirdTests.swift */; };
 		E09AA11C226E98D1000F9F39 /* FlappyBirdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09AA11B226E98D1000F9F39 /* FlappyBirdUITests.swift */; };
+		E09AA12A226EA184000F9F39 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09AA129226EA184000F9F39 /* GameScene.swift */; };
+		E0C8F4E822729AAE00161CC0 /* itemgetsea.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0C8F4E722729AAE00161CC0 /* itemgetsea.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E09AA117226E98D1000F9F39 /* FlappyBirdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyBirdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E09AA11B226E98D1000F9F39 /* FlappyBirdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyBirdUITests.swift; sourceTree = "<group>"; };
 		E09AA11D226E98D1000F9F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E09AA129226EA184000F9F39 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E0C8F4E722729AAE00161CC0 /* itemgetsea.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = itemgetsea.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				E09AA102226E98D0000F9F39 /* Assets.xcassets */,
 				E09AA104226E98D0000F9F39 /* LaunchScreen.storyboard */,
 				E09AA107226E98D0000F9F39 /* Info.plist */,
+				E09AA129226EA184000F9F39 /* GameScene.swift */,
+				E0C8F4E722729AAE00161CC0 /* itemgetsea.mp3 */,
 			);
 			path = FlappyBird;
 			sourceTree = "<group>";
@@ -229,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0C8F4E822729AAE00161CC0 /* itemgetsea.mp3 in Resources */,
 				E09AA106226E98D0000F9F39 /* LaunchScreen.storyboard in Resources */,
 				E09AA103226E98D0000F9F39 /* Assets.xcassets in Resources */,
 				E09AA101226E98CF000F9F39 /* Main.storyboard in Resources */,
@@ -256,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E09AA12A226EA184000F9F39 /* GameScene.swift in Sources */,
 				E09AA0FE226E98CF000F9F39 /* ViewController.swift in Sources */,
 				E09AA0FC226E98CF000F9F39 /* AppDelegate.swift in Sources */,
 			);
