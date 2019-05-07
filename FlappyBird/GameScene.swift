@@ -416,16 +416,16 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             apple.physicsBody?.isDynamic = false
             
             // アイテムスコアアップ用のノード
-            let itemscoreNode = SKNode()
-            itemscoreNode.position = CGPoint(x: apple.size.width + birdSize.width / 2, y: self.frame.height / 2)
-            itemscoreNode.physicsBody = SKPhysicsBody(rectangleOf: CGSize(width: apple.size.width, height: apple.size.height))
-            itemscoreNode.physicsBody?.isDynamic = false
-            itemscoreNode.physicsBody?.categoryBitMask = self.itemCategory
+//            let itemscoreNode = SKNode()
+//            itemscoreNode.position = CGPoint(x: apple.size.width + birdSize.width / 2, y: self.frame.height / 2)
+//            itemscoreNode.physicsBody = SKPhysicsBody(rectangleOf: CGSize(width: apple.size.width, height: apple.size.height))
+//            itemscoreNode.physicsBody?.isDynamic = false
+//            itemscoreNode.physicsBody?.categoryBitMask = self.itemCategory
             //itemscoreNode.physicsBody?.contactTestBitMask = self.birdCategory
             
             self.deleteItem = item
             
-            item.addChild(itemscoreNode)
+            //item.addChild(itemscoreNode)
             
             item.addChild(apple)
             

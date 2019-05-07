@@ -29,7 +29,10 @@ class ViewController: UIViewController {
         let scene = GameScene(size:skView.frame.size)
         
         //ビューにシーンを表示する
-        skView.presentScene(scene)        
+        skView.presentScene(scene)
+        
+        //当たり判定の確認
+        //skView.showsPhysics = true
     }
     
     //ステータスバーを消す
